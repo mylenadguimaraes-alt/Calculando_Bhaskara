@@ -52,7 +52,10 @@ function calcularBhaskara() {
     }
 }
 
-fLimpar(){
-    
+function fLimpar() {
+    document.getElementById("valorA").value = "";
+    document.getElementById("valorB").value = "";
+    document.getElementById("valorC").value = "";
+    document.getElementById("resultado").innerHTML = "O resultado aparecerá aqui.";
 }
 
